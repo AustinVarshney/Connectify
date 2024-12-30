@@ -1,0 +1,51 @@
+.outerDashboardBody1{
+    background-image: url('../../assets/DashboardPic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100% - 3.6rem);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDashboardBody1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.innerDashboardBody1>p{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.innerDashboardBody1>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.innerDashboardBody1>div>input{
+    height: 2rem;
+    width: 12rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #00d0ff;
+    outline: none;
+}
+
+.innerDashboardBody1>div>a>button{
+    height: 2rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: blue;
+    border: 1px;
+    font-size: 1rem;
+    cursor: pointer;
+}
